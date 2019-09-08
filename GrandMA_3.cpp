@@ -66,5 +66,7 @@ int main() {
     else if (cents == 1) {
         cout << "one cent";
     }
+    cout<<'\n';
+    system("pause");
     return 0;
 }

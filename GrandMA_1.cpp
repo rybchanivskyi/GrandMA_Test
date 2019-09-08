@@ -38,5 +38,6 @@ int main() {
         }
         cout << '\n';
     }
+    system("pause");
     return 0;
 }
