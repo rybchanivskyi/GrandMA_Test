@@ -29,7 +29,8 @@ int main() {
     for (int i = 0; i < frame_height; ++i) {
         for (int j = 0; j < frame_width; ++j) {
             matrix[i][j] = rand();
-            cout<<matrix[i][j]<< ' ';
+            cout.width(10);
+            cout<<matrix[i][j];
         }
         cout<<'\n';
     }
@@ -43,7 +44,8 @@ int main() {
     cout << "\nFinal matrix : \n";
     for (int i = 0; i < frame_height; ++i) {
         for (int j = 0; j < frame_width; ++j) {
-            cout<<matrix[i][j]<< ' ';
+            cout.width(10);
+            cout << matrix[i][j];
         }
         cout<<'\n';
     }

@@ -16,8 +16,9 @@ int main() {
     cout<<"\nInitial matrix:\n";
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < N; ++j) {
-            matrix[i][j] = rand () % 10000 + (rand() % 9 + 1) * 10000;
-            cout << matrix[i][j] << ' ';
+            matrix[i][j] = rand ();
+            cout.width(10);
+            cout << matrix[i][j];
         }
         cout << '\n';
     }
@@ -34,7 +35,8 @@ int main() {
     cout << "\nFinal matrix : \n";
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < N; ++j) {
-            cout << matrix[i][j] << ' ';
+            cout.width(10);
+            cout << matrix[i][j];
         }
         cout << '\n';
     }
